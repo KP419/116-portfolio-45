@@ -63,3 +63,16 @@ body {
         padding: 40px;
     }
 }
+
+/* Media query for screens with a maximum width of 780px */
+@media (max-width: 780px) {
+    .projects-list {
+        flex-direction: column; /* Stack the project cards vertically */
+        align-items: center; /* Center the project cards */
+    }
+
+    .project-card {
+        width: 90%; /* Make the project cards take up 90% of the screen width */
+        margin-bottom: 20px; /* Add some margin between cards */
+    } 
+}
